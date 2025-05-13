@@ -128,5 +128,5 @@ def jogo():
 
     pygame.quit()
 
-# Iniciar o jogo
+# 123 Iniciar o jogo
 jogo()
