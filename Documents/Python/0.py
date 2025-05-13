@@ -20,6 +20,8 @@ VERMELHO = (255, 0, 0)
 # Definir fontes
 fonte = pygame.font.SysFont(None, 36)
 
+
+
 # Definir o jogador (cesta)
 class Cesta:
     def __init__(self):
