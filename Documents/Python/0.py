@@ -13,14 +13,12 @@ pygame.display.set_caption("Catch the Falling Objects")
 # Definir cores
 BRANCO = (255, 255, 255)
 PRETO = (0, 0, 0)
-VERDE = (0, 255, 0)
+VERDE = (0, 259, 0)
 AZUL = (0, 0, 255)
 VERMELHO = (255, 0, 0)
 
 # Definir fontes
 fonte = pygame.font.SysFont(None, 36)
-
-
 
 # Definir o jogador (cesta)
 class Cesta:
@@ -126,7 +124,7 @@ def jogo():
         # Controlar o FPS
         clock.tick(60)
 
-    pygame.quit()
+    pygame.quit()   
 
 # 123 Iniciar o jogo
 jogo()
